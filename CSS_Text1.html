@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: green;
+            text-align: center;
+
+        }
+
+        /* body {
+            color: blue;
+        } */
+
+        div {
+            border: 1px solid black;
+            padding: 10px;
+            height: 200px;
+            width: 200px;
+            text-align: justify;
+            /* text-align-last: center; */
+            margin: auto;
+        }
+
+        .dr {
+            direction: rtl;
+            unicode-bidi: bidi-override;
+        }
+
+        img.a {
+            vertical-align: baseline;
+        }
+
+        img.b {
+            vertical-align: text-top;
+        }
+
+        img.c {
+            vertical-align: text-bottom;
+        }
+
+        img.d {
+            vertical-align: sub;
+        }
+
+        img.e {
+            vertical-align: super;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is heading 1</h1>
+    <p>This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the
+        body selector.</p>
+    <p>Another paragraph.</p>
+    <br>
+    <div>
+        In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind
+        ever since. 'Whenever you feel like criticizing anyone,' he told me, 'just remember that all the people in this
+        world haven't had the advantages that you've had.'
+    </div>
+    <p class="dr">This is the use of direction.</p>
+    <br>
+    <p class="drbd">This is the use of bidi-override.</p>
+    <br>
+    <h1>The vertical-align Property</h1>
+
+    <h2>vertical-align: baseline (default):</h2>
+    <p>An <img class="a" src="sqpurple.gif" width="9" height="9" alt="Baseline"> image with a default alignment.</p>
+
+    <h2>vertical-align: text-top:</h2>
+    <p>An <img class="b" src="sqpurple.gif" width="9" height="9" alt="text-top"> image with a text-top alignment.</p>
+
+    <h2>vertical-align: text-bottom:</h2>
+    <p>An <img class="c" src="sqpurple.gif" width="9" height="9" alt="text-bottom"> image with a text-bottom alignment.
+    </p>
+
+    <h2>vertical-align: sub:</h2>
+    <p>An <img class="d" src="sqpurple.gif" width="9" height="9" alt="sub"> image with a sub alignment.</p>
+
+    <h2>vertical-align: sup:</h2>
+    <p>An <img class="e" src="sqpurple.gif" width="9" height="9" alt="sup"> image with a super alignment.</p>
+</body>
+
+</html>

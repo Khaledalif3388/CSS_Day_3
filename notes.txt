@@ -1,0 +1,14 @@
+margin block ta k small kore pixel beshi hoile but
+padding a block er size  fixed thake  but container kom beshi hoi...
+Margin a negativa value kaj kore but padding a negative value kaj kre nah
+margin auto dile center a jai content
+width r padding eksathe use korle box width bere jai...
+eta rmv korte box-sizing: border-box use kora hoi jno box ta fixed wdith a thake.
+padding, border, margin er moddhe height and width set kore,,,
+width and max width eksathe use korle width property jodi max-width er theke beshi hoi then width k ignore kore.
+Explanation of the different parts:
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent

@@ -1,0 +1,43 @@
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+    /* box-sizing: border-box;*/ /*box size ta fixed rakhte */
+  }
+  
+  p.ex1 {
+    margin-left: inherit;
+  }
+
+  /* Margin collapse only works on top and bottom region */
+  /* Margin collapse only works on block level element */
+  h1{
+    margin: 0 0 50px 0;
+    border: 1px solid red;
+    /* margin: auto; */
+  }
+  h2{
+    margin: 20px 0 0 0;
+    border: 1px solid red;
+  }
+  .fat{
+    background-color: #ffd8e2;
+    width: 250px;
+    border: 2px solid #eb003b;
+    padding: 10px 40px;
+  }
+  .white_back{
+    background-color: white;
+  }
+p{
+    text-align:center;
+}
+div.ex1 {
+    width: 300px;
+    background-color: yellow;
+  }
+  
+  div.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+  }
